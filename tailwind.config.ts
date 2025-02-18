@@ -9,8 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        adSky: "#C3EBFA",
+        adSkyLight: "#EDF9FD",
+        adPurple: "#CFCEFF",
+        adPurpleLight: "#F1F0FF",
+        adYellow: "#FAE27C",
+        adYellowLight: "#FEFCE8"
       },
     },
   },
