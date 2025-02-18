@@ -2,7 +2,6 @@
 
 // import { Calendar, momentLocalizer, View, Views  } from 'react-big-calendar'
 // import moment from 'moment'
-// import { rentalPropertyViewingSchedule } from "@lib/data"
 // import "react-big-calendar/lib/css/react-big-calendar.css";
 // import { useState } from 'react'
 
