@@ -42,7 +42,7 @@ const AttendanceMarker = () => {
     // Implement update logic here
   };
 
-  const handleDownload = (format: "csv" | "pdf") => {
+  const handleDownload = (_format: "csv" | "pdf") => {
     // Implement download logic here
   };
 

@@ -12,7 +12,7 @@ const StudentInformation = () => {
   const [year, setYear] = useState("")
   const [section, setSection] = useState("")
   const [searchQuery, setSearchQuery] = useState("")
-  const [studentInfo, setStudentInfo] = useState<{ name: string; rollNumber?: String, contactNumber: String, parentContactNumber: String, currentAttendance: number, weeklyAttendance: Number[], semesterAttendance: Number[],   } | null>(null);
+  const [studentInfo, setStudentInfo] = useState<{ name: string; rollNumber?: string, contactNumber: string, parentContactNumber: string, currentAttendance: number, weeklyAttendance: number[], semesterAttendance: number[],   } | null>(null);
 
 
   const handleSearch = () => {
