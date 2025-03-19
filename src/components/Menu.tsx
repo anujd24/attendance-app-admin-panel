@@ -15,46 +15,15 @@ const menuItems = [
           visible: ["admin", "teacher", "student", "parent"],
         },
         {
-          icon: "/teacher.png",
-          label: "Teachers",
-          href: "/list/teachers",
-          visible: ["admin", "teacher"],
-        },
-        {
           icon: "/student.png",
           label: "Students",
-          href: "/list/students",
+          href: "/student",
           visible: ["admin", "teacher"],
         },
-        {
-          icon: "/subject.png",
-          label: "Subjects",
-          href: "/list/subjects",
-          visible: ["admin"],
-        },
-        {
-          icon: "/class.png",
-          label: "Classes",
-          href: "/list/classes",
-          visible: ["admin", "teacher"],
-        },
-        
         {
           icon: "/attendance.png",
           label: "Attendance",
-          href: "/list/attendance",
-          visible: ["admin", "teacher", "student", "parent"],
-        },
-        {
-          icon: "/calendar.png",
-          label: "Events",
-          href: "/list/events",
-          visible: ["admin", "teacher", "student", "parent"],
-        },
-        {
-          icon: "/announcement.png",
-          label: "Announcements",
-          href: "/list/announcements",
+          href: "/attendance",
           visible: ["admin", "teacher", "student", "parent"],
         },
       ],
