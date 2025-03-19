@@ -42,7 +42,7 @@ const AttendanceMarker = () => {
     // Implement update logic here
   };
 
-  const handleDownload = (_format: "csv" | "pdf") => {
+  const handleDownload = () => {
     // Implement download logic here
   };
 
@@ -144,10 +144,10 @@ const AttendanceMarker = () => {
           </button>
         </div>
         <div>
-          <button onClick={() => handleDownload("csv")} className="bg-blue-500 text-white px-4 py-2 rounded mr-4 hover:bg-blue-600 transition duration-300 shadow-lg">
+          <button onClick={() => handleDownload()} className="bg-blue-500 text-white px-4 py-2 rounded mr-4 hover:bg-blue-600 transition duration-300 shadow-lg">
             Download CSV
           </button>
-          <button onClick={() => handleDownload("pdf")} className="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600 transition duration-300 shadow-lg">
+          <button onClick={() => handleDownload()} className="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600 transition duration-300 shadow-lg">
             Download PDF
           </button>
         </div>
