@@ -29,7 +29,7 @@ const StudentInformation = () => {
     })
   }
 
-  const handleDownload = (format: "csv" | "pdf") => {
+  const handleDownload = () => {
     // Implement download logic here
   }
 
@@ -131,7 +131,7 @@ const StudentInformation = () => {
               <strong>Contact Number:</strong> {studentInfo.contactNumber}
             </p>
             <p>
-              <strong>Parent's Contact Number:</strong> {studentInfo.parentContactNumber}
+              <strong>Parent&apos;s Contact Number:</strong> {studentInfo.parentContactNumber}
             </p>
             <p>
               <strong>Current Attendance:</strong> {studentInfo.currentAttendance}%
@@ -149,13 +149,13 @@ const StudentInformation = () => {
           </div>
           <div className="mt-8">
             <button
-              onClick={() => handleDownload("csv")}
+              onClick={() => handleDownload()}
               className="bg-blue-500 text-white px-4 py-2 rounded mr-4 hover:bg-blue-600 transition duration-300 shadow-lg"
             >
               Download CSV
             </button>
             <button
-              onClick={() => handleDownload("pdf")}
+              onClick={() => handleDownload()}
               className="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600 transition duration-300 shadow-lg"
             >
               Download PDF
